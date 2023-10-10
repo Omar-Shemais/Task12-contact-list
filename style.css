@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+   
+}
+main{
+    margin-top: 40px;
+}
+header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+header .searchContact{
+    background-color: gray;
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px 40px;
+}
+header .searchContact i{
+color: crimson;
+font-size: 12px;
+}
+header .searchContact input{
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: grey;
+    font-size: 13px;
+}
+header .addContact .addBtn{
+    padding: 10px 60px;
+    background-color: gray;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: crimson;
+    cursor: pointer;
+}
+/* overlay */
+.overlay{
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.8);
+}
+.overlayAdd{
+    width: 30%;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 4px;
+    padding: 40px;
+    border: 1px solid black;
+    display: none;
+}
+.overlayAdd > i{
+    font-size: 100px;
+}
+.overlayAdd  input{
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.overlayAdd .saveBtn{
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.overlayAdd .close{
+    font-size: 30px;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    cursor: pointer;
+}
+/* table */
+.contactTable{
+    margin-top: 40px;
+}
+.contactTable table{
+    border-collapse:collapse;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+th,td{
+    border:  1px solid black;
+    padding: 10px 20px;
+}
+.delete{
+    color: red;
+    cursor: pointer;
+}
+.edit{
+    color: green;
+    cursor: pointer;
+}

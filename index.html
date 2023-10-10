@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+<main class="">
+    <header class="header">
+    <div class="searchContact ">
+        <form>
+            <label for="search">
+                <i class="fa fa-search"></i>
+            </label>
+            <input type="search" id="search" name="search" placeholder="search contact">
+        </form>
+    </div><!-- search -->
+    <div class="addContact">
+        <button class="addBtn">
+            <i class="fas fa-user-plus"></i>
+            Add new contact
+        </button><!-- add -->
+    </div>
+    </header>
+    <section class="form">
+        <div class="overlayAdd">
+            <i class="fa fa-user-plus"></i>
+            <form action="">
+                <input type="text" placeholder="Full name" id="formName">
+                <input type="text" placeholder="Phone" id="formPhone">
+                <input type="email" placeholder="E-main" id="formEmail">
+                <input type="text" placeholder="Adress" id="formAddress">
+            </form>
+            <button class="saveBtn">
+                <i class="fas fa-save"></i> save
+            </button><!-- Save Button -->
+            <div class="close">
+                <i class="far fa-window-close"></i>
+            </div><!-- close window -->
+        </div>
+    </section><!-- overlay form -->
+
+    <section class="contactTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>#id</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>E-main</th>
+                    <th>Adress</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+    
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
